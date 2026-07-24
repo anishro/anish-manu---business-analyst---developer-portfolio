@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-serif-editorial {
+    font-family: 'Instrument Serif', Georgia, Cambria, "Times New Roman", Times, serif;
+  }
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  background-color: #0F0F0F;
+  color: #F5F5F5;
+}
+
+/* Custom scrollbar for editorial theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0F0F0F;
+}
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #404040;
+}
